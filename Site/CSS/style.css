@@ -1,0 +1,27 @@
+body{
+    color: #fef7d5;
+    background-color: #00c9d2;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#Logo img {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+
+#Logo nav {
+    margin-top: 15px;
+}
+
+#Logo nav a {
+    margin: 0 10px;
+}
