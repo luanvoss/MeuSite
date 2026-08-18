@@ -13,8 +13,8 @@ body{
 }
 
 #Logo img {
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     object-fit: contain;
 }
 
@@ -24,4 +24,28 @@ body{
 
 #Logo nav a {
     margin: 0 10px;
+}
+
+nav a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+main h2 {
+    text-align: center;
+    color: #0b4462;
+    margin-bottom: 30px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 280px;
+    flex-wrap: wrap;
 }
