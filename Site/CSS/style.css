@@ -1,7 +1,9 @@
 body{
-    color: #fef7d5;
+    color: rgb(29, 4, 255);
     background-color: #00c9d2;
     font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin: 0;
 }
 
 #Logo {
@@ -18,34 +20,53 @@ body{
     object-fit: contain;
 }
 
-#Logo nav {
-    margin-top: 15px;
-}
-
-#Logo nav a {
-    margin: 0 10px;
-}
-
-nav a{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-}
-
 main h2 {
     text-align: center;
-    color: #0b4462;
-    margin-bottom: 30px;
+    margin-bottom: 30px 0;
 }
 
-.produtos {
+main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     gap: 30px;
-    flex-wrap: wrap;
 }
 
 .section {
-    width: 280px;
-    flex-wrap: wrap;
+    width: 600px;
+    background-color: white;
+    border: 2px solid #0088cc;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.section h3 {
+    text-align: center;
+    color: #006699;
+}
+
+.section li {
+    margin-bottom: 10px;
+}
+
+.section button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 25px;
+    background-color: #0088cc;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.section button:hover {
+    background-color: #005f8f;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
