@@ -1,0 +1,97 @@
+body{
+    color: rgb(29, 4, 255);
+    background-color: #00c9d2;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin: 0;
+}
+
+#Logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#Logo img {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main h1{
+     text-align: center;
+    margin-bottom: 30px 0;
+}
+
+main h2{
+    width: 100%;
+    background-color: white;
+    border: 2px solid #0088cc;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#respostas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#reset {
+    background-color: #dc3545;
+    color: white;
+}
+
+#submit {
+    background-color: #007bff;
+    color: white;
+}
+
+#reset:hover {
+    background-color: #b02a37;
+}
+
+#submit:hover {
+    background-color: #0056b3;
+}
