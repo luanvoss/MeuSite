@@ -1,0 +1,42 @@
+body{
+    color: rgb(29, 4, 255);
+    background-color: #00c9d2;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin: 0;
+}
+
+#Logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#Logo img {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color:  white;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
