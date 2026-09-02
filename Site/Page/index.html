@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Armazém da Água</title>
     <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../Script/scripi.js" defer></script>
 </head>
+
 <body>
     <header>
         <section class="class">
             <div id="Logo">
                 <img src="../Logo/ChatGPT Image 17_08_2026, 20_45_59.png" alt="Logo">
-                <nav>
+
+                <button id="btn-menu">☰ Menu</button>
+                <nav id="menu">
                     <a href="Reclamações.html">Reclamações</a>
                     <a href="sobre.html">Sobre Nós</a>
                     <a href="contato.html">Contato</a>
@@ -22,6 +26,11 @@
     </header>
     <main>
         <h2>Conheça nossos produtos</h2>
+
+
+
+        <button id="tema" class="ativo">Modo escuro</button>
+
         <section class="section">
             <div id="produto1">
                 <h3>Água Sem gás</h3>
@@ -31,6 +40,7 @@
                     <li>🥤 Não é gaseificada, portanto não tem borbulhas.</li>
                     <li>🌿 Tem sabor mais suave e natural, sendo adequada para consumo diário.</li>
                 </ul>
+                <button id="btn-favoritar-1">♡ Favoritar</button>
                 <button>Comprar</button>
             </div>
         </section>
@@ -43,6 +53,7 @@
                     <li>🥤 É gaseificada, apresentando borbulhas.</li>
                     <li>✨ Tem sabor mais ácido e refrescante devido à presença do CO₂.</li>
                 </ul>
+                <button id="btn-favoritar-2">♡ Favoritar</button>
                 <button>Comprar</button>
             </div>
         </section>
@@ -56,9 +67,14 @@
                     <li>💧 É à base de água, podendo ser com ou sem gás.</li>
                     <li>🍋 Tem sabor mais variado e refrescante que a água natural.</li>
                 </ul>
+                <button id="btn-favoritar-3">♡ Favoritar</button>
                 <button>Comprar</button>
             </div>
         </section>
+
+        <p id="mensagem">Escolha um de nossos produtos!</p>
+
+        <button id="btn-mensagem">Ver mensagem</button>
     </main>
     <footer>
         <div class="footer-content">

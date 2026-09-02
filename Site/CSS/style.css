@@ -70,3 +70,54 @@ footer{
     display: flex;
     flex-direction: column;
 }
+
+body.ativo {
+    background-color: #222;
+    color: white;
+}
+
+body.ativo .section {
+    background-color: #333;
+    color: white;
+}
+
+body.ativo .section h3 {
+    color: white;
+}
+
+body.ativo .section p {
+    color: white;
+}
+
+body.ativo .section li {
+    color: white;
+}
+
+#menu {
+    display: none;
+}
+
+#menu.ativo {
+    display: flex;
+    flex-direction: column;
+}
+
+.destaque {
+    transform: scale(1.03);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+#btn-favoritar-1.ativo {
+    background-color: red;
+    color: white;
+}
+
+#btn-favoritar-2.ativo {
+    background-color: red;
+    color: white;
+}
+
+#btn-favoritar-3.ativo {
+    background-color: red;
+    color: white;
+}
